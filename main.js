@@ -24,7 +24,7 @@ for (let i = 1; i <= 100; i++) {
 
     else{
         console.log(i)
-        contenitore.innerHTML += `<div class="box">${i}</div>`;
+        container.innerHTML += `<div class="box">${i}</div>`;
     }
 
 }
