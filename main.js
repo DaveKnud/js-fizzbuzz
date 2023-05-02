@@ -13,12 +13,12 @@ for (let i = 1; i <= 100; i++) {
     }
 
     else if(i % 5 === 0) { //se il numero e' un multiplo di 5
-        container.innerHTML += `<div class="box box-5">FizzBuzz</div>`;
+        container.innerHTML += `<div class="box box-5">Buzz</div>`;
         console.log("Buzz");
     }
     
     else if(i % 3 === 0) { //se il numero e' un multiplo di 3
-        container.innerHTML += `<div class="box box-3">FizzBuzz</div>`;
+        container.innerHTML += `<div class="box box-3">Fizz</div>`;
         console.log("Fizz");
     }
 
