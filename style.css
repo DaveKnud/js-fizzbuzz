@@ -1,0 +1,51 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+background-color:#083B4C;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    padding: 30px;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+
+/* general box Rules */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height:100px ;
+    padding: 5px;
+    color: black;
+}
+
+
+/* Selected boxes */
+.box-15{
+    background-color:#F0466F;
+}
+
+.box-5{
+    background-color:#FFD166;
+}
+
+.box-3{
+    background-color: #0CD6A1;
+}
+
+.box-normal{
+    background-color:#1389B2;
+}
