@@ -9,12 +9,10 @@ for (let i =1; i <= 100; i++) {
         console.log("Fizz");
     }
 
-    else if{(i % 5 === 0) { //se il numero e' un multiplo di 5
+    else if(i % 5 === 0) { //se il numero e' un multiplo di 5
         console.log("Buzz");
-
     }
     
-    i
     //creazione nuovo elemento
     const quadrato = document.createElement('span');
        
